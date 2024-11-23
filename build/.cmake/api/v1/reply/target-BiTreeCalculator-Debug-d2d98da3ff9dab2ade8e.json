@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/Programs/TestForCMake/TestForCMake.exe"
+			"path" : "D:/Programs/Project03_BinaryTreeCalculator/BiTreeCalculator.exe"
 		},
 		{
-			"path" : "D:/Programs/TestForCMake/TestForCMake.pdb"
+			"path" : "D:/Programs/Project03_BinaryTreeCalculator/BiTreeCalculator.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -44,12 +44,11 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "TestForCMake::@6890427a1f51a3e7e1df",
+	"id" : "BiTreeCalculator::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "TestForCMake",
-	"nameOnDisk" : "TestForCMake.exe",
+	"name" : "BiTreeCalculator",
+	"nameOnDisk" : "BiTreeCalculator.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -82,19 +81,12 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
 	"sources" : 
 	[
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/add.cpp",
-			"sourceGroupIndex" : 0
-		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

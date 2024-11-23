@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "BiTreeCalculator_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programs/Project03_BinaryTreeCalculator/build"
+		},
+		{
+			"name" : "BiTreeCalculator_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "BiTreeCalculator_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programs/Project03_BinaryTreeCalculator"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -15,7 +51,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/addr2line.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,19 +67,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/ar.exe"
-		},
-		{
-			"name" : "CMAKE_BACKWARDS_COMPATIBILITY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "For backwards compatibility, what version of CMake commands and syntax should this version of CMake try to support."
-				}
-			],
-			"type" : "STRING",
-			"value" : "2.4"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -67,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Programs/TestForCMake/build"
+			"value" : "d:/Programs/Project03_BinaryTreeCalculator/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -167,11 +191,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/g++.exe"
+			"type" : "STRING",
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -187,7 +211,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/gcc-ar.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -203,7 +227,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/gcc-ranlib.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -311,11 +335,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/gcc.exe"
+			"type" : "STRING",
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -331,7 +355,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/gcc-ar.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -347,7 +371,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/gcc-ranlib.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -459,7 +483,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/dlltool.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -599,7 +623,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Programs/TestForCMake/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/Programs/Project03_BinaryTreeCalculator/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -671,7 +695,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Programs/TestForCMake"
+			"value" : "D:/Programs/Project03_BinaryTreeCalculator"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -683,7 +707,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/TestForCMake"
+			"value" : "C:/Program Files (x86)/BiTreeCalculator"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -699,7 +723,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/ld.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -715,7 +739,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/mingw32-make.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -811,7 +835,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/nm.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -839,7 +863,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/objcopy.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -855,7 +879,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/objdump.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -903,7 +927,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "TestForCMake"
+			"value" : "BiTreeCalculator"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -919,7 +943,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/ranlib.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -935,7 +959,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/windres.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1043,7 +1067,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/readelf.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1263,7 +1287,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/bin/strip.exe"
+			"value" : "D:/Qt/Tools/mingw1120_64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1296,66 +1320,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
-		},
-		{
-			"name" : "EXECUTABLE_OUTPUT_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Single output directory for building all executables."
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "LIBRARY_OUTPUT_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Single output directory for building all libraries."
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "TestForCMake_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/Programs/TestForCMake/build"
-		},
-		{
-			"name" : "TestForCMake_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "TestForCMake_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/Programs/TestForCMake"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

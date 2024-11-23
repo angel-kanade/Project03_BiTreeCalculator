@@ -1,14 +1,8 @@
 [
 {
-  "directory": "D:/Programs/TestForCMake/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\TestForCMake.dir\\src\\add.cpp.obj -c D:\\Programs\\TestForCMake\\src\\add.cpp",
-  "file": "D:/Programs/TestForCMake/src/add.cpp",
-  "output": "CMakeFiles/TestForCMake.dir/src/add.cpp.obj"
-},
-{
-  "directory": "D:/Programs/TestForCMake/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\TestForCMake.dir\\src\\main.cpp.obj -c D:\\Programs\\TestForCMake\\src\\main.cpp",
-  "file": "D:/Programs/TestForCMake/src/main.cpp",
-  "output": "CMakeFiles/TestForCMake.dir/src/main.cpp.obj"
+  "directory": "D:/Programs/Project03_BinaryTreeCalculator/build",
+  "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\BiTreeCalculator.dir\\src\\main.cpp.obj -c D:\\Programs\\Project03_BinaryTreeCalculator\\src\\main.cpp",
+  "file": "D:/Programs/Project03_BinaryTreeCalculator/src/main.cpp",
+  "output": "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj"
 }
 ]

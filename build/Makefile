@@ -56,10 +56,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Programs\TestForCMake
+CMAKE_SOURCE_DIR = D:\Programs\Project03_BinaryTreeCalculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Programs\TestForCMake\build
+CMAKE_BINARY_DIR = D:\Programs\Project03_BinaryTreeCalculator\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\TestForCMake\build\CMakeFiles D:\Programs\TestForCMake\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\Project03_BinaryTreeCalculator\build\CMakeFiles D:\Programs\Project03_BinaryTreeCalculator\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\TestForCMake\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\Project03_BinaryTreeCalculator\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,48 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TestForCMake
+# Target rules for targets named BiTreeCalculator
 
 # Build rule for target.
-TestForCMake: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestForCMake
-.PHONY : TestForCMake
+BiTreeCalculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BiTreeCalculator
+.PHONY : BiTreeCalculator
 
 # fast build rule for target.
-TestForCMake/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestForCMake.dir\build.make CMakeFiles/TestForCMake.dir/build
-.PHONY : TestForCMake/fast
-
-src/add.obj: src/add.cpp.obj
-.PHONY : src/add.obj
-
-# target to build an object file
-src/add.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestForCMake.dir\build.make CMakeFiles/TestForCMake.dir/src/add.cpp.obj
-.PHONY : src/add.cpp.obj
-
-src/add.i: src/add.cpp.i
-.PHONY : src/add.i
-
-# target to preprocess a source file
-src/add.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestForCMake.dir\build.make CMakeFiles/TestForCMake.dir/src/add.cpp.i
-.PHONY : src/add.cpp.i
-
-src/add.s: src/add.cpp.s
-.PHONY : src/add.s
-
-# target to generate assembly for a file
-src/add.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestForCMake.dir\build.make CMakeFiles/TestForCMake.dir/src/add.cpp.s
-.PHONY : src/add.cpp.s
+BiTreeCalculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/build
+.PHONY : BiTreeCalculator/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestForCMake.dir\build.make CMakeFiles/TestForCMake.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -165,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestForCMake.dir\build.make CMakeFiles/TestForCMake.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -173,7 +149,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestForCMake.dir\build.make CMakeFiles/TestForCMake.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -184,10 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... TestForCMake
-	@echo ... src/add.obj
-	@echo ... src/add.i
-	@echo ... src/add.s
+	@echo ... BiTreeCalculator
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
