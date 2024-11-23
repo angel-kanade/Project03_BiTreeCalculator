@@ -2,25 +2,28 @@
 
 // typedef struct TreeNode {
 //     char elem;
+//     bool isLeaf;
 //     struct TreeNode* left;
 //     struct TreeNode* right;
-//     TreeNode(char e = 0, struct TreeNode* l = nullptr, struct TreeNode* r = nullptr): elem(e), left(l), right(r) {}
+//     TreeNode(char e = 0, bool isL = false,struct TreeNode* l = nullptr, struct TreeNode* r = nullptr): elem(e), isLeaf(isL), left(l), right(r) {}
 // } TreeNode;
 
 // class BinaryTree {
 // private:
 //     TreeNode* root;
+//     string expr;
 // public:
 //     BinaryTree();
 //     ~BinaryTree();
 //     void ReadExpr(string& expr);
-//     void WriteExpr();
-//     void Assign(char x, int val);
-//     int Value();
-//     BinaryTree* Diff(char x);
-//     void MergeConst();
-//     void DeleteTree();
-//     void insertNode(char x, bool& done);
+//     bool checkExpr(TreeNode* node);
+//     void WriteExpr(TreeNode* node);
+//     void Assign(char x, int val, TreeNode* node);
+//     int Value(TreeNode* node);
+//     BinaryTree* Diff(char x, TreeNode* node);
+//     void MergeConst(TreeNode* node);
+//     void DeleteTree(TreeNode* node);
+//     void insertNode(char x, bool& done, TreeNode*& node);
 //     friend BinaryTree* CompoundExpr(char op, BinaryTree* left, BinaryTree* right);
 // };
 
@@ -163,4 +166,27 @@ void BinaryTree::MergeConst(TreeNode* node){
             return;
         }
     }
+}
+
+TreeNode* copyTree(TreeNode* node){
+    if (node == nullptr) return nullptr;
+    TreeNode* newNode = new TreeNode(node->elem, node->isLeaf, nullptr, nullptr);
+    newNode->left = copyTree(node->left);
+    newNode->right = copyTree(node->right);
+    return newNode;
+}
+
+void getExpr(TreeNode* node, string& expr){
+    if (node == nullptr) return;
+    expr += node->elem;
+    getExpr(node->left, expr);
+    getExpr(node->right, expr);
+}
+
+BinaryTree* CompoundExpr(char op, BinaryTree* left, BinaryTree* right){
+    BinaryTree* result = new BinaryTree();
+    result->root = new TreeNode(op, false, nullptr, nullptr);
+    result->root->left = copyTree(left->root);
+    result->root->right = copyTree(right->root);
+    return result;
 }
