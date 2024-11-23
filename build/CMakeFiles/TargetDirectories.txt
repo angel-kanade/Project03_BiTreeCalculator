@@ -1,0 +1,3 @@
+D:/Programs/TestForCMake/build/CMakeFiles/TestForCMake.dir
+D:/Programs/TestForCMake/build/CMakeFiles/edit_cache.dir
+D:/Programs/TestForCMake/build/CMakeFiles/rebuild_cache.dir

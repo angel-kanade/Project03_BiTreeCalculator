@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Programs/TestForCMake/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\TestForCMake.dir\\src\\add.cpp.obj -c D:\\Programs\\TestForCMake\\src\\add.cpp",
+  "file": "D:/Programs/TestForCMake/src/add.cpp",
+  "output": "CMakeFiles/TestForCMake.dir/src/add.cpp.obj"
+},
+{
+  "directory": "D:/Programs/TestForCMake/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\TestForCMake.dir\\src\\main.cpp.obj -c D:\\Programs\\TestForCMake\\src\\main.cpp",
+  "file": "D:/Programs/TestForCMake/src/main.cpp",
+  "output": "CMakeFiles/TestForCMake.dir/src/main.cpp.obj"
+}
+]
