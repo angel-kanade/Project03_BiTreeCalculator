@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj"
+  "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj.d"
   "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj"
   "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj.d"
   "D:/Programs/Project03_BinaryTreeCalculator/BiTreeCalculator.exe"

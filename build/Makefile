@@ -128,6 +128,30 @@ BiTreeCalculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/build
 .PHONY : BiTreeCalculator/fast
 
+src/functionsDefine.obj: src/functionsDefine.cpp.obj
+.PHONY : src/functionsDefine.obj
+
+# target to build an object file
+src/functionsDefine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj
+.PHONY : src/functionsDefine.cpp.obj
+
+src/functionsDefine.i: src/functionsDefine.cpp.i
+.PHONY : src/functionsDefine.i
+
+# target to preprocess a source file
+src/functionsDefine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.i
+.PHONY : src/functionsDefine.cpp.i
+
+src/functionsDefine.s: src/functionsDefine.cpp.s
+.PHONY : src/functionsDefine.s
+
+# target to generate assembly for a file
+src/functionsDefine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.s
+.PHONY : src/functionsDefine.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BiTreeCalculator
+	@echo ... src/functionsDefine.obj
+	@echo ... src/functionsDefine.i
+	@echo ... src/functionsDefine.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

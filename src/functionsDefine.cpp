@@ -1,4 +1,6 @@
 #include "classDeclare.hpp"
+#include <cmath>
+using namespace std;
 
 // typedef struct TreeNode {
 //     char elem;
@@ -91,6 +93,7 @@ void BinaryTree::ReadExpr(string& expr){
     root = nullptr;
     for (int i = 0; i < expr.length(); i++){
         bool done = false;
+        if (expr[i] != '+' && expr[i] != '-' && expr[i] != '*' && expr[i] != '/' && expr[i] != '^' && (expr[i] < '0' || expr[i] > '9') && (expr[i] < 'a' || expr[i] > 'z') &&  (expr[i] < 'A' || expr[i] > 'Z')) throw invalid_argument("Invalid expression");
         insertNode(expr[i], done, root);
         if (!done) throw invalid_argument("Invalid expression");
     }
@@ -127,7 +130,7 @@ int BinaryTree::Value(TreeNode* node){
     if (root == nullptr) throw invalid_argument("Empty expression");
     if (node->isLeaf){
         if ('0' <= node->elem && node->elem <= '9') return node->elem - '0';
-        else throw invalid_argument("Variable not assigned");
+        else return 0;
     }
     else{
         int left = Value(node->left);
@@ -136,12 +139,15 @@ int BinaryTree::Value(TreeNode* node){
         else if (node->elem == '-') return left - right;
         else if (node->elem == '*') return left * right;
         else if (node->elem == '/') return left / right;
-        else if (node->elem == '^') return pow(left, right);
+        else if (node->elem == '^') return pow(left, (double)right);
     }
 }
 
 void BinaryTree::MergeConst(TreeNode* node){
     if (root == nullptr) return;
+    if (!node) return;
+    MergeConst(node->left);
+    MergeConst(node->right);
     if (!node->isLeaf){
         if (node->left->isLeaf && node->right->isLeaf){
             if (node->left->elem >= '0' && node->left->elem <= '9' && node->right->elem >= '0' && node->right->elem <= '9'){
@@ -151,7 +157,7 @@ void BinaryTree::MergeConst(TreeNode* node){
                 else if (node->elem == '-') node->elem = left - right + '0';
                 else if (node->elem == '*') node->elem = left * right + '0';
                 else if (node->elem == '/') node->elem = left / right + '0';
-                else if (node->elem == '^') node->elem = pow(left, right) + '0';
+                else if (node->elem == '^') node->elem = pow(left, (double)right) + '0';
                 delete node->left;
                 delete node->right;
                 node->left = nullptr;
@@ -159,11 +165,6 @@ void BinaryTree::MergeConst(TreeNode* node){
                 node->isLeaf = true;
                 return;
             }
-        }
-        else{
-            MergeConst(node->left);
-            MergeConst(node->right);
-            return;
         }
     }
 }
@@ -188,5 +189,6 @@ BinaryTree* CompoundExpr(char op, BinaryTree* left, BinaryTree* right){
     result->root = new TreeNode(op, false, nullptr, nullptr);
     result->root->left = copyTree(left->root);
     result->root->right = copyTree(right->root);
+    getExpr(result->root, result->expr);
     return result;
 }

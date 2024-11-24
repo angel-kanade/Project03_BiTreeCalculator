@@ -1,6 +1,12 @@
 [
 {
   "directory": "D:/Programs/Project03_BinaryTreeCalculator/build",
+  "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\BiTreeCalculator.dir\\src\\functionsDefine.cpp.obj -c D:\\Programs\\Project03_BinaryTreeCalculator\\src\\functionsDefine.cpp",
+  "file": "D:/Programs/Project03_BinaryTreeCalculator/src/functionsDefine.cpp",
+  "output": "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj"
+},
+{
+  "directory": "D:/Programs/Project03_BinaryTreeCalculator/build",
   "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\BiTreeCalculator.dir\\src\\main.cpp.obj -c D:\\Programs\\Project03_BinaryTreeCalculator\\src\\main.cpp",
   "file": "D:/Programs/Project03_BinaryTreeCalculator/src/main.cpp",
   "output": "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj"

@@ -16,7 +16,7 @@ typedef struct TreeNode {
 } TreeNode;
 
 class BinaryTree {
-private:
+public:
     TreeNode* root;
     string expr;
 public:
@@ -25,7 +25,7 @@ public:
     void ReadExpr(string& expr);
     bool checkExpr(TreeNode* node);
     void WriteExpr(TreeNode* node);
-    void Assign(char x, int val, TreeNode* node);
+    void Assign(char x, int val = 0, TreeNode* node);
     int Value(TreeNode* node);
     BinaryTree* Diff(char x, TreeNode* node);
     void MergeConst(TreeNode* node);

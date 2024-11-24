@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/Programs/Project03_BinaryTreeCalculator/src/functionsDefine.cpp" "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj" "gcc" "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj.d"
   "D:/Programs/Project03_BinaryTreeCalculator/src/main.cpp" "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj" "gcc" "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj.d"
   )
 
