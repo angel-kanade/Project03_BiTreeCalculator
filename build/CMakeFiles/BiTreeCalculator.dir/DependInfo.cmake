@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Programs/Project03_BinaryTreeCalculator/src/functionsDefine.cpp" "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj" "gcc" "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj.d"
   "D:/Programs/Project03_BinaryTreeCalculator/src/main.cpp" "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj" "gcc" "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj.d"
+  "D:/Programs/Project03_BinaryTreeCalculator/src/terminalInteract.cpp" "CMakeFiles/BiTreeCalculator.dir/src/terminalInteract.cpp.obj" "gcc" "CMakeFiles/BiTreeCalculator.dir/src/terminalInteract.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

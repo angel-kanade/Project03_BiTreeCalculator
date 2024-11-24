@@ -80,12 +80,12 @@ clean: CMakeFiles/BiTreeCalculator.dir/clean
 CMakeFiles/BiTreeCalculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Programs\Project03_BinaryTreeCalculator\build\CMakeFiles --progress-num=1,2,3 "Built target BiTreeCalculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Programs\Project03_BinaryTreeCalculator\build\CMakeFiles --progress-num=1,2,3,4 "Built target BiTreeCalculator"
 .PHONY : CMakeFiles/BiTreeCalculator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BiTreeCalculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\Project03_BinaryTreeCalculator\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\Project03_BinaryTreeCalculator\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BiTreeCalculator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\Project03_BinaryTreeCalculator\build\CMakeFiles 0
 .PHONY : CMakeFiles/BiTreeCalculator.dir/rule

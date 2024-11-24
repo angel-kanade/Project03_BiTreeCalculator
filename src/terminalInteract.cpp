@@ -58,7 +58,7 @@ void terminalInteract(){
                 int value;
                 cin.clear();
                 cin >> value;
-                bt.Assign(var[0], value);
+                bt.Assign(var[0], value, bt.root);
                 cout << "赋值后的表达式为：" << endl;
                 bt.WriteExpr(bt.root);
                 cout << endl << endl;

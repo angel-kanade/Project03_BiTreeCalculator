@@ -176,6 +176,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/terminalInteract.obj: src/terminalInteract.cpp.obj
+.PHONY : src/terminalInteract.obj
+
+# target to build an object file
+src/terminalInteract.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/terminalInteract.cpp.obj
+.PHONY : src/terminalInteract.cpp.obj
+
+src/terminalInteract.i: src/terminalInteract.cpp.i
+.PHONY : src/terminalInteract.i
+
+# target to preprocess a source file
+src/terminalInteract.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/terminalInteract.cpp.i
+.PHONY : src/terminalInteract.cpp.i
+
+src/terminalInteract.s: src/terminalInteract.cpp.s
+.PHONY : src/terminalInteract.s
+
+# target to generate assembly for a file
+src/terminalInteract.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BiTreeCalculator.dir\build.make CMakeFiles/BiTreeCalculator.dir/src/terminalInteract.cpp.s
+.PHONY : src/terminalInteract.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/terminalInteract.obj
+	@echo ... src/terminalInteract.i
+	@echo ... src/terminalInteract.s
 .PHONY : help
 
 

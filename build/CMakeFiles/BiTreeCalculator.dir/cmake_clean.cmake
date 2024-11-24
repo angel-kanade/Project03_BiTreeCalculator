@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BiTreeCalculator.dir/src/functionsDefine.cpp.obj.d"
   "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj"
   "CMakeFiles/BiTreeCalculator.dir/src/main.cpp.obj.d"
+  "CMakeFiles/BiTreeCalculator.dir/src/terminalInteract.cpp.obj"
+  "CMakeFiles/BiTreeCalculator.dir/src/terminalInteract.cpp.obj.d"
   "D:/Programs/Project03_BinaryTreeCalculator/BiTreeCalculator.exe"
   "D:/Programs/Project03_BinaryTreeCalculator/BiTreeCalculator.exe.manifest"
   "D:/Programs/Project03_BinaryTreeCalculator/BiTreeCalculator.pdb"
